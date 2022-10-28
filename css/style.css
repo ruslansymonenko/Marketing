@@ -337,7 +337,35 @@ body{
 .portfolio__item{
     width: 100%;
     margin-bottom: 22px;
+    position: relative;
 }
+.portfolio__item:hover .portfolio__item-link{
+    opacity: 1;
+}
+
+.portfolio__item-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    max-width: 325px;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #4C4A4A;
+    border: 10px solid #666565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+}
+
+
 
 .portfolio__add{
     display: block;
