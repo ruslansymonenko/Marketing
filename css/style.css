@@ -598,3 +598,136 @@ ul .pricing__item{
     display: block;
     margin-top: 70px;
 }
+
+/*--------------Clients*/
+
+.clients{
+    padding: 70px 0 95px;
+}
+
+.clients__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*-------------------Connect*/
+
+.connect{
+    padding: 145px 0 160px;
+    background-image: url(../images/map-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 40%;
+    background-position: right 65%;
+}
+
+.connect__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+}
+
+.connect__title{
+    margin-bottom: 110px;
+}
+
+.connect__form input,
+.connect__form textarea{
+    border: none;
+    border-bottom: 2px solid #373A39;
+    font-weight: 400;
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+.connect__form input::placeholder,
+.connect__form textarea::placeholder{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3.70909px;
+    color: #B8B8B8;
+}
+
+.connect__form textarea{
+    min-height: 140px;
+    resize: none;
+}
+
+.connect__form button{
+    color: white;
+    width: 230px;
+    height: 45px;
+    background-color: #242121;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+    padding: 17px 70px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+
+/*----------------------Footer*/
+
+.footer__top {
+    padding: 110px 10px 60px;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer__logo {
+    display: inline-block;
+    padding: 0 35px 4px;
+    border-bottom: 2px solid #FCBB08;
+    margin-bottom: 70px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.footer__social-list {
+    padding: 0 15px;
+}
+
+.footer__social-link {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer__contact{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 57px;
+}
+
+.footer__contact a{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.go__top {
+    display: inline-block;
+}
+
+.footer__copy {
+    padding: 40px 10px;
+    text-align: center;
+    background-color: #2A2C2B;
+    color: #ccc;
+}
