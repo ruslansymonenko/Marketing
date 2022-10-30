@@ -511,3 +511,33 @@ body{
 .slick-next{
     right: -95px;
 }
+
+/*-------------Team*/
+.team{
+    padding: 120px 0 130px;
+}
+
+.team__title{
+    margin-bottom: 100px;
+}
+
+.team__itmes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team__name{
+    padding: 35px 0 12px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.team__position{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #373A39;
+}
