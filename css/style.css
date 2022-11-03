@@ -731,3 +731,9 @@ ul .pricing__item{
     background-color: #2A2C2B;
     color: #ccc;
 }
+
+/*-------------------ADAPTIVE*/
+
+@media (max-width: 1500px) {
+    
+}
