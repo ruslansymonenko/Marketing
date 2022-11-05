@@ -770,12 +770,17 @@ ul .pricing__item{
         display: block;
     }
 
-    .about_title{
+    .about_title,
+    .pricing__title{
         margin-bottom: 50px;
     }
 
     .about,
-    .expertise{
+    .expertise,
+    .slider-blog,
+    .team,
+    .pricing,
+    .connect{
         padding: 75px 0;
     }
 
@@ -791,6 +796,17 @@ ul .pricing__item{
     .portfolio__numbers-item{
         font-size: 50px;
         line-height: 63px;
+    }
+
+    .team__itmes,
+    .pricing__items,
+    .clients__list{
+        column-gap: 20px;
+    }
+
+    .team__title,
+    .connect__title{
+        margin-bottom: 50px;
     }
 }
 
@@ -815,7 +831,8 @@ ul .pricing__item{
         width: 100%;
     }
 
-    .magic{
+    .magic,
+    .connect{
         background-image: none;
     }
 
@@ -850,8 +867,38 @@ ul .pricing__item{
         margin-bottom: 75px;
     }
 
-    .portfolio__numbers-item{
+    .slider-blog__item-title{
+        font-size: 26px;
+        line-height: 32px;
+    }
 
+    .connect__form{
+        max-width: 100%;
+    }
+
+    .footer__top{
+        padding-top: 75px;
+    }
+
+    .footer__logo{
+        margin-bottom: 40px;
+    }
+
+    ul.footer__social{
+        flex-wrap: wrap;
+    }
+
+    .footer__contact{
+        margin-bottom: 30px;
+    }
+
+    .footer__copy{
+        padding: 20px 10px;
+    }
+
+    .footer__social-list{
+        margin-bottom: 20px;
+        width: 33.333333%;
     }
 }
 
@@ -926,8 +973,51 @@ ul .pricing__item{
     }
 
     .portfolio__numbers-item{
-        font-size: 30px;
-        line-height: 43px;
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .slider-blog__item{
+        width: 100%;
+    }
+
+    .slider-blog{
+        padding: 40px 0;
+    }
+
+    .slider-blog__item-title{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .clients__list{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .clients__list li{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .team__itmes,
+    .pricing__items{
+        display: block;
+        
+    }
+    .team__item,
+    .pricing__item{
+        margin-bottom: 25px;
+    }
+
+    .team__item img {
+        margin: 0 auto;
+    }
+
+    .pricing__item-price{
+        font-size: 50px !important;
+        line-height: 70px;
     }
 }
 
@@ -935,10 +1025,6 @@ ul .pricing__item{
     .title{
         font-size: 28px;
         line-height: 42px;
-    }
-
-    .about__title{
-
     }
 
     .header__title {
@@ -959,5 +1045,20 @@ ul .pricing__item{
     .portfolio__content {
         column-count: 2;
         column-gap: 10px;
+    }
+
+    .slider-blog__item-title {
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .slider-blog__item{
+        max-width: 300px;
+    }
+
+    .slider-blog__item-decr {
+        font-size: 12px;
+        line-height: 22px;
+        max-width: 233px;
     }
 }

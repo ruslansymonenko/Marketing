@@ -10,7 +10,15 @@ $(function(){
         arrows: true,
         dots: true,
         prevArrow: `<button type="button" class="slick-prev">${leftArrPath}</button>`,
-        nextArrow: `<button type="button" class="slick-next">${rightArrPath}</button>`
+        nextArrow: `<button type="button" class="slick-next">${rightArrPath}</button>`,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                        arrows: false,
+                    }
+            }
+        ]
     });
 
     $('.menu__btn').on('click', () => {
